@@ -1,0 +1,104 @@
+:root {
+    --primary-color: #007fff;
+    --secondary-color: #66ddaa;
+    --danger-color: #e32636;
+    --ternary-color: #a4c842;
+}
+
+#nav {
+    background-color: #66DDAA;
+    overflow: hidden;
+    text-align: center;
+}
+
+.sucessmsg {
+    color: var(--ternary-color);
+    margin-bottom: -5px !important;
+    float: right;
+}
+
+.separator--style {
+    height: 600px;
+    width: 4px;
+    background-color: var(--secondary-color);
+    display: block;
+}
+
+
+@media (max-width: 768px) {
+    .separator--style {
+        display: none;
+    }
+}
+
+
+.card_box {
+    position: relative;
+    height: 400px;
+    overflow: hidden auto;
+    border-bottom: 2px solid var(--ternary-color);
+    border-left: 1px solid var(--ternary-color);
+    border-right: 1px solid var(--ternary-color);
+    border-top: 1px solid var(--ternary-color);
+}
+
+.card_header {
+    background-color: var(--ternary-color) !important;
+    color: #fff !important;
+}
+
+
+.Detalis {
+    position: relative;
+    height: 105px;
+    border-bottom: 1px solid var(--ternary-color);
+    border-left: 1px solid var(--ternary-color);
+}
+
+.profile {
+    position: relative;
+    border-bottom: 1px solid var(--ternary-color);
+    border-left: 1px solid var(--ternary-color);
+}
+
+.card-items .Detalis p {
+    padding-left: 5px;
+    padding-top: 3px;
+    margin-bottom: -8px;
+    font-size: 14px;
+}
+
+.card-items:nth-child(even) {
+    background-color: #eef3d5;
+}
+
+.st-mail a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.profileImg {
+    padding-top: 5px;
+    width: 100px;
+    height: 95px;
+    object-fit: cover;
+}
+
+@media (max-width: 870px) {
+
+    img.profileImg {
+        width: 85px;
+    }
+}
+
+@media (max-width: 570px) {
+
+    img.profileImg {
+        width: 75px;
+    }
+}
+
+.deletbtn {
+    display: flex;
+    justify-content: center;
+}
